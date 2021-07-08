@@ -1,0 +1,42 @@
+/* ESTILOS PARA TABLETS */
+@media only screen and (min-width:788px) and (max-width:979px){
+
+	
+}
+/* ESTILOS PARA  SMARTPHONES */
+@media only screen and (max-width:787px){
+	/* Header */
+	.header{
+		position: relative;
+		padding-bottom:0;
+	}
+	.header img{
+		margin:0 auto 10px auto;
+	}
+	.header_menu{
+		text-align:center;
+		margin-top:20px;
+	}
+
+	.header_menu ul li{
+		margin:5px;
+	}
+
+	.header_menu ul li a {
+		font-weight: bold;
+		border:5px solid #000;
+		width:136px;
+		display:block;
+		float:left; 
+	}
+	.header_menu ul li a:hover{
+		border-color:#fff;
+	}
+	/* INTRODUCAO */
+	.introducao{
+		padding-top:20px;
+		margin-top:0;
+		background-image:url('../img/bg-mobile.jpg') no-repeat center;
+		background-size:cover;
+	}
+}
