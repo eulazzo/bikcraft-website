@@ -1,7 +1,22 @@
 /* ESTILOS PARA TABLETS */
 @media only screen and (min-width:788px) and (max-width:979px){
-
-	
+	/* QUALIDADE HOME */
+	.qualidade:after {
+		right: 66px;
+	}
+	/* FOOTER */
+	.qualidade_lista li {
+		padding:0 10px;
+	}
+	.footer_redes ul li a{
+		border:3px solid #fec63e;
+		display:block;
+		padding:6px;
+	}
+	.footer_redes ul li a img {
+		width:26px;
+		height:26px;
+	}
 }
 /* ESTILOS PARA  SMARTPHONES */
 @media only screen and (max-width:787px){
@@ -24,7 +39,7 @@
 
 	.header_menu ul li a {
 		font-weight: bold;
-		border:5px solid #000;
+		border:5px so		lid #000;
 		width:136px;
 		display:block;
 		float:left; 
@@ -34,9 +49,22 @@
 	}
 	/* INTRODUCAO */
 	.introducao{
-		padding-top:20px;
+		padding-top:40px;
 		margin-top:0;
 		background-image:url('../img/bg-mobile.jpg') no-repeat center;
 		background-size:cover;
 	}
+	.cta {
+		padding-top: 10px;
+	}
+	.qualidade:after {
+		display: none;
+	}
+	.introducao h1 {
+		font-size:30px;
+	}
+	.produtos{
+		text-align:center;
+	}
+	
 }
